@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/portfolio-review/static/css/main.9f520616.css",
+    "main.js": "/portfolio-review/static/js/main.23d1a1d5.js",
+    "static/js/787.21a6b978.chunk.js": "/portfolio-review/static/js/787.21a6b978.chunk.js",
+    "static/media/bg.jpg": "/portfolio-review/static/media/bg.33a2a3a9dfad68f8fd95.jpg",
+    "static/media/cursor.png": "/portfolio-review/static/media/cursor.abeb51902a2001dfca05.png",
+    "index.html": "/portfolio-review/index.html",
+    "static/media/jewtechpro-resume.md": "/portfolio-review/static/media/jewtechpro-resume.8ba763a6cf960f39ff94.md",
+    "static/media/jewtechpro-cv.md": "/portfolio-review/static/media/jewtechpro-cv.42bd208a606906f8533f.md",
+    "main.9f520616.css.map": "/portfolio-review/static/css/main.9f520616.css.map",
+    "main.23d1a1d5.js.map": "/portfolio-review/static/js/main.23d1a1d5.js.map",
+    "787.21a6b978.chunk.js.map": "/portfolio-review/static/js/787.21a6b978.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9f520616.css",
+    "static/js/main.23d1a1d5.js"
+  ]
+}
