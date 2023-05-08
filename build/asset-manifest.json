@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/computers-commerce/static/css/main.e4a50741.css",
+    "main.js": "/computers-commerce/static/js/main.c05ecdc8.js",
+    "static/js/787.21a6b978.chunk.js": "/computers-commerce/static/js/787.21a6b978.chunk.js",
+    "static/media/bg.jpg": "/computers-commerce/static/media/bg.33a2a3a9dfad68f8fd95.jpg",
+    "static/media/comp4.jpg": "/computers-commerce/static/media/comp4.71be70e9784a184aad88.jpg",
+    "index.html": "/computers-commerce/index.html",
+    "main.e4a50741.css.map": "/computers-commerce/static/css/main.e4a50741.css.map",
+    "main.c05ecdc8.js.map": "/computers-commerce/static/js/main.c05ecdc8.js.map",
+    "787.21a6b978.chunk.js.map": "/computers-commerce/static/js/787.21a6b978.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4a50741.css",
+    "static/js/main.c05ecdc8.js"
+  ]
+}
