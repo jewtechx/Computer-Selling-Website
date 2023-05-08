@@ -1,0 +1,60 @@
+.about-wrapper{
+    background-image: linear-gradient(#11111193,#11111186),url(/public/images/comp4.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 300px;
+    width:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(8px);
+    transition: 0.5s ease;
+}
+.about-wrapper:hover{
+    background-position: bottom;
+}
+.wrapper-text{
+    font-size: 70px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family:'Courier New', Courier, monospace;
+    color:#fff;
+    text-shadow: 1px 1px 10px #626161;
+}
+@media (max-width:542px){
+    .wrapper-text{
+        font-size: 50px;
+        font-weight: bold;
+        letter-spacing: 1px;
+        font-family:'Courier New', Courier, monospace;
+        color:#fff;
+        text-shadow: 1px 1px 10px #626161;
+    }
+}
+.below{
+    background-color: rgba(255, 237, 251, 0.641);
+    padding:20px;
+    border-radius: 3px;
+}
+.below p:nth-child(2){
+    font-size: 20px;
+    color:#111;
+    margin-top:-23px;
+}
+.below p{
+    font-size: 20px;
+    color:#111;
+}
+.button{
+    background-color: purple;
+}
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo img{
+    width:80%;
+    height:70%;
+    border-radius: 240%;
+}
