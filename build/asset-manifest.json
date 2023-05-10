@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/Computer-Selling-Website/static/css/main.de0ce8bd.css",
-    "main.js": "/Computer-Selling-Website/static/js/main.da81c356.js",
+    "main.css": "/Computer-Selling-Website/static/css/main.f9455a4f.css",
+    "main.js": "/Computer-Selling-Website/static/js/main.fad21cbe.js",
     "static/js/787.21a6b978.chunk.js": "/Computer-Selling-Website/static/js/787.21a6b978.chunk.js",
     "static/media/bg.jpg": "/Computer-Selling-Website/static/media/bg.33a2a3a9dfad68f8fd95.jpg",
     "static/media/comp4.jpg": "/Computer-Selling-Website/static/media/comp4.71be70e9784a184aad88.jpg",
     "index.html": "/Computer-Selling-Website/index.html",
-    "main.de0ce8bd.css.map": "/Computer-Selling-Website/static/css/main.de0ce8bd.css.map",
-    "main.da81c356.js.map": "/Computer-Selling-Website/static/js/main.da81c356.js.map",
+    "main.f9455a4f.css.map": "/Computer-Selling-Website/static/css/main.f9455a4f.css.map",
+    "main.fad21cbe.js.map": "/Computer-Selling-Website/static/js/main.fad21cbe.js.map",
     "787.21a6b978.chunk.js.map": "/Computer-Selling-Website/static/js/787.21a6b978.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.de0ce8bd.css",
-    "static/js/main.da81c356.js"
+    "static/css/main.f9455a4f.css",
+    "static/js/main.fad21cbe.js"
   ]
 }
