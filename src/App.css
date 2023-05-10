@@ -10,7 +10,7 @@
   width:18px;
   background-color: crimson;
   border-radius: 10px;
-  top:48px;
+  top:50px;
 }
 .navbar2-links.active::before{
   content:"";
@@ -31,8 +31,33 @@
 
 .navbar-links,.navbar2-links{
   text-decoration: none;
-  padding: 10px 12px;
+  padding: 7px 5px;
   color:#111;
+  font-size:1.5vw;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+@media (max-width : 450px){
+  .navbar-links,.navbar2-links{
+    text-decoration: none;
+    padding: 5px 4px;
+    color:#111;
+    font-size:4.5vw;
+  }
+  .navbar{
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 1px 1px 10px 0.1px #eaeaea;
+  }
+  .logo-name{
+    font-weight: bold;
+    text-decoration: none;
+    color:black;
+    margin:10px;
+    margin-left:-15px;
+  }
 }
 .navbar-links:hover,.navbar2-links:hover{
   color:crimson;
@@ -42,6 +67,7 @@
   text-decoration: none;
   color:black;
   margin:10px;
+  margin-left:-10px;
 }
 .home{
   background-image: url(/public/images/bg.jpg);

@@ -12,16 +12,16 @@ export default function NavbarM() {
    }
   return (
     <div>
-      <Navbar collapseOnSelect className="navbar ">
+      <Navbar  collapseOnSelect className="navbar ">
         <Container>
           <Navbar.Brand>
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <p className="logo-name"style={{color:"crimson"}}>#JEWCOMP</p>
+              <p className="logo-name"style={{color:"crimson",fontFamily:"verdana",fontSize:"20px",letterSpacing:"1px"}}>#JEWCOMP</p>
             </Link>
           </Navbar.Brand>
 
           <Navbar.Toggle aria-controls="nav" />
-          <Navbar.Collapse id="nav">
+          <Navbar.Collapse  style={{marginLeft:"-20px"}} id="nav">
             <Nav className="me-auto">
               <NavLink className="navbar-links" style={({isActive}) => isActive ? activeStyles : null}  to="host">
                 Host

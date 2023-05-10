@@ -7,7 +7,7 @@ export default function Footer(){
             alignItems:"center",
             justifyContent:"center",
             color:"#111",
-            fontSize:"16px",
+            fontSize:"2vh",
             position:"fixed",
             bottom:0,
             width:"100%",

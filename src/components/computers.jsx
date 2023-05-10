@@ -23,6 +23,7 @@ export default function Computers() {
   }
 
 
+
   const comps = computerdatas.map((items) => {
     return (
       <Card className="card-main">
@@ -62,7 +63,7 @@ export default function Computers() {
         <div className="preview-img-wrapper" ref={wrapper}>
           <img src={imgpre} ref={imgmain} alt="preview of the one you clicked on"/>
         </div>
+        </div>
       </div>
-    </div>
   );
 }
