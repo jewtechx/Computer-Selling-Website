@@ -8,7 +8,7 @@ export default function NavbarM() {
   //   setActive(eventKey)
   // }
   const activeStyles = {
-      color:"crimson"
+      color:"#008080"
    }
   return (
     <div>
@@ -16,7 +16,13 @@ export default function NavbarM() {
         <Container>
           <Navbar.Brand>
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <p className="logo-name"style={{color:"crimson",fontFamily:"monospace",fontSize:"20px",letterSpacing:"1px"}}>#JEWCOMP</p>
+              <img src={process.env.PUBLIC_URL + '/images/logo.png'} style={{
+                width:'90px',
+                height:'75px',
+                borderRadius:"500%",
+                marginBlockEnd:"-12px",
+                marginBlockStart:"-12px"
+              }}/>
             </Link>
           </Navbar.Brand>
 

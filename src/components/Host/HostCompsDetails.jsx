@@ -13,7 +13,7 @@ export default function HostCompsDetails() {
   }
 
   const activeStyles = {
-    color: 'crimson',
+    color: '#008080',
   };
 
   return (
@@ -27,8 +27,24 @@ export default function HostCompsDetails() {
           <div className='hostcompmain'>
             <img src={contextdata.image} alt={contextdata.specs.model} />
             <div className='host-comp-detail'>
-              <Button style={{ backgroundColor: 'gold', border: 'none', color: '#111' }}>{contextdata.categoty}</Button>
-              <h2>{contextdata.specs.model}</h2>
+            <box
+  style={{
+    padding: "7px",
+    borderRadius: "3px",
+    position:"relative",
+    bottom:"5.5px",
+    backgroundColor:
+      contextdata.categoty === "Entry Level"
+        ? "#F4A261" // Light orange shade for entry level
+        : contextdata.categoty === "Mid Range"
+        ? "#E9C46A" // Mustard shade for mid range
+        : contextdata.categoty === "High End"
+        ? "#2A9D8F" // Teal shade for high end
+        : "",
+    color: "#fff"
+  }}
+>{contextdata.categoty}</box>
+         <h2>{contextdata.specs.model}</h2>
               <h6>{contextdata.price} / <strike>{Math.floor(110 / 100 * contextdata.price.slice(3))}</strike></h6>
             </div>
           </div>

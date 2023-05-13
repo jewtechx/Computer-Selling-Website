@@ -4,7 +4,7 @@ import { NavLink } from 'react-router-dom';
 
 export default function HostNav() {
   const activeStyles = {
-    color:"crimson"
+    color:"#008080"
  }
   return (
     <div>

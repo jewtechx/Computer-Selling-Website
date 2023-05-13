@@ -21,7 +21,28 @@ export default function ComPreview(){
                 }}>&larr; Go back to explore our computers</Link>
             <img src={items.image} alt="preview" style={{borderRadius:'12px'}} />
             <div className='caption'>
-                <h1>{items.specs.model}</h1>
+                <div>
+                    <h1>{items.specs.model}</h1>
+                    <box
+  style={{
+    padding: "3px",
+    borderRadius: "3px",
+    position:"relative",
+    bottom:"5.5px",
+    backgroundColor:
+      items.categoty === "Entry Level"
+        ? "#F4A261" // Light orange shade for entry level
+        : items.categoty === "Mid Range"
+        ? "#E9C46A" // Mustard shade for mid range
+        : items.categoty === "High End"
+        ? "#2A9D8F" // Teal shade for high end
+        : "",
+    color: "#fff"
+  }}
+>
+  {items.categoty}
+</box>
+</div>
                 <h6>{items.price} / <strike style={{color:'#ccc'}}>{Math.floor(110 / 100 * items.price.slice(3))}</strike></h6>
                 <p>{items.desc}
                 </p>

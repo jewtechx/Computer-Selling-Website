@@ -3,12 +3,15 @@
   padding:0;
   box-sizing:border-box;
 }
+.active:hover{
+  color: #008080;
+}
 .active::before{
   content:"";
   position:absolute;
   height:4px;
   width:18px;
-  background-color: crimson;
+  background-color: #008080;
   border-radius: 10px;
   top:50px;
 }
@@ -17,7 +20,7 @@
    position:absolute;
    height:4px;
    width:18px;
-   background-color: crimson;
+   background-color: #008080;
    border-radius: 10px;
    top:30px;
 }
@@ -65,7 +68,7 @@
   }
 }
 .navbar-links:hover,.navbar2-links:hover{
-  color:crimson;
+  color:#008080;
 }
 .logo-name{
   font-weight: bold;
@@ -106,7 +109,7 @@
   text-shadow: 1px 1px 5px #111;
   color:#fff;
 }
-::-webkit-scrollbar{width:3px;}
+::-webkit-scrollbar{width:4px;}
 	 ::-webkit-scrollbar-track{background:transparent;}
 	 ::-webkit-scrollbar-thumb{background-color:crimson;
 	                          border-radius:var(--radius-pill);

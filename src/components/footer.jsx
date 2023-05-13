@@ -2,7 +2,7 @@ import React from 'react'
 export default function Footer(){
     return(
         <div className='footer' style={{
-            backgroundColor:"#111",
+            backgroundColor:"#008080",
             display:"flex",
             alignItems:"center",
             justifyContent:"center",
