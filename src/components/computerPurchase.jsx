@@ -11,16 +11,18 @@ export default function ComPreview(){
       const mainComp = computerdatas.filter(items => items.id == params.id).map(items => {
         return(
             <div className='desc'>
-                <Link to="/computers" style={{
+                <Link to=".." relative='path' style={{
                     position:"relative",
                     color:"crimson",
                     fontSize:"15px",
                     marginBlockEnd:"9px",
-                    marginBlockStart:"-13px"
-                }}>Go back to explore our computers</Link>
-            <img src={items.image} alt="preview" />
+                    marginBlockStart:"-13px",
+                    textDecoration:'none'
+                }}>&larr; Go back to explore our computers</Link>
+            <img src={items.image} alt="preview" style={{borderRadius:'12px'}} />
             <div className='caption'>
                 <h1>{items.specs.model}</h1>
+                <h6>{items.price} / <strike style={{color:'#ccc'}}>{Math.floor(110 / 100 * items.price.slice(3))}</strike></h6>
                 <p>{items.desc}
                 </p>
                 <a href={`https://www.${items.specs.model}.com`} target='-blank'>view on website</a>

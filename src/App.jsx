@@ -12,6 +12,9 @@ import Review from './components/Host/Review';
 import ComPreview from './components/computerPurchase';
 import HostCompsDetails from './components/Host/HostCompsDetails';
 import HostComps from './components/Host/HostComps';
+import HCDdetails from './components/Host/HCDdetails';
+import HCDpricing from './components/Host/HCDpricing';
+import HCDphotos from './components/Host/HCDphotos';
 
 export default function App() {
   return (
@@ -26,7 +29,11 @@ export default function App() {
               <Route index element={<Dashboard />} />
               <Route path="income" element={<Income />} />
               <Route path="comps" element={<HostComps />} />
-              <Route path="comps/:id" element={<HostCompsDetails />} />
+            <Route path="comps/:id" element={<HostCompsDetails />}>
+              <Route index element={<HCDdetails/>}/>
+              <Route path='pricing' element={<HCDpricing/>}/>
+              <Route path='photos' element={<HCDphotos/>}/>
+            </Route>
               <Route path="review" element={<Review />} />
             </Route>
              <Route path="computers" element={<Computers />}/>

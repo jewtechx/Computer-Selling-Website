@@ -2,19 +2,20 @@ import React from 'react'
 export default function Footer(){
     return(
         <div className='footer' style={{
-            backgroundColor:"#f3f3f3",
+            backgroundColor:"#111",
             display:"flex",
             alignItems:"center",
             justifyContent:"center",
-            color:"#111",
-            fontSize:"2vh",
+            color:"#fff",
+            fontSize:"1.4vw",
             position:"fixed",
             bottom:0,
             width:"100%",
+            fontFamily:'courier',
             height:"40px",
-            paddingTop:"15px"
+            paddingTop:"13px"
         }}>
-            <p>© Copyright @ 2023 . All Rights Reserved - Website by <a href="#" style={{color:"crimson"}}>JewTech-X</a></p>
+            <p>© Copyright @ 2023 . All Rights Reserved - Website by <a href="#" style={{color:"yellow"}}>JewTech-X</a></p>
         </div>
     )
 }

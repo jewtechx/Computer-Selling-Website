@@ -8,20 +8,17 @@ export default function HostComps(){
     const comps = computerdatas.map(comp => {
         return(
             <Container>
-                <Link style={{textDecoration:"none",color:"inherit"}}to={`/comps/${comp.id}`}>
+                <Link style={{textDecoration:"none",color:"inherit"}}to={`${comp.id}`}>
                 <div className="hostcomp">
-                <Row>
-                <Col sm={5}>
-                 <center><img src={comp.image} alt={comp.specs.model} /></center>
-                </Col>
-                <Col sm={7}>
+                
+                 <img src={comp.image} alt={comp.specs.model} />
+                
+    
                 <div className="hostcomp-detail">
                     <h2 className="comp-name">{comp.specs.model}</h2>
-                    <h3 className="comp-price">{comp.price}</h3>
+                    <h3 className="comp-price">{comp.price} / <strike>{Math.floor(110 / 100 * comp.price.slice(3))}</strike></h3>
                     <p>{comp.desc}</p>
                 </div>
-                </Col>
-                </Row>
             </div>
                 </Link>
             </Container>

@@ -16,7 +16,7 @@ export default function NavbarM() {
         <Container>
           <Navbar.Brand>
             <Link to="/" style={{ textDecoration: 'none' }}>
-              <p className="logo-name"style={{color:"crimson",fontFamily:"verdana",fontSize:"20px",letterSpacing:"1px"}}>#JEWCOMP</p>
+              <p className="logo-name"style={{color:"crimson",fontFamily:"monospace",fontSize:"20px",letterSpacing:"1px"}}>#JEWCOMP</p>
             </Link>
           </Navbar.Brand>
 

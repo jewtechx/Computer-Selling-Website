@@ -34,13 +34,16 @@ export default function Computers() {
             <p>{items.specs.ram}</p>
             <p>{items.specs.harddisk}</p>
           </div>
-          <Card.Text className="price">{items.price}</Card.Text>
+          <Card.Text className="price">{items.price} / <strike style={{color:'#ccc'}}>{Math.floor(110 / 100 * items.price.slice(3))}</strike></Card.Text>
           <Link to={`${items.id}`}><Button variant="danger" className="button">Purchase</Button></Link>
         </Card.Body>
       </Card>
     );
   });
 
+  if(!comps){
+    return <h1>Loading...</h1>
+  }
   return (
     <div>
       <Container>

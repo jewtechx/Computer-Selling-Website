@@ -9,14 +9,19 @@
 .hostcomp{
     margin-block-start: 20px;
     display:flex;
+    flex-wrap:wrap;
+    flex-direction: row;
     gap:7px;
     box-shadow: 0.5px 0.5px 8px 0.1px #ccc;
     padding: 5px;
+    align-items: center;
 }
 .hostcomp-detail{
     padding-top:20px;
     background-color: rgb(248, 252, 254);
     padding:1px;
+    width:600px;
+    align-items: center;
 }
 .hostcomp-detail h2{
     font-size:42px;
@@ -29,4 +34,5 @@
 .hostcomp-detail p{
     color:#363636;
     font-size:17px;
+    line-height: 20px;
 }

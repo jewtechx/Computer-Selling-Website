@@ -1,0 +1,21 @@
+.comp-details{
+    display: flex;
+    flex-wrap: wrap;
+}
+.hostcompmain{
+    display:flex;
+    flex-wrap:wrap;
+    margin-block-start: 40px;
+    align-items: center;
+}
+.host-comp-detail{
+    padding:12px;
+}
+.hostcompmain img{
+    width:200px;
+    height:200px;
+    border-radius:10px;
+}
+.host-comp-detail strike{
+    color:#b7b6b6;
+}
